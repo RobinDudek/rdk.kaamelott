@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="rdk.kaamelott.Views.DetailPage">
+    <ContentPage.Content>
+        <StackLayout
+            HorizontalOptions="Center"
+            Margin="20">
+            <Label Text="{Binding Sample.Title}"
+                   FontSize="20"/>
+            <Label Text="{Binding Sample.Character}"
+                   FontSize="20"/>
+            <Label Text="{Binding Sample.Episode}"
+                   FontSize="20"/>
+            <Button 
+                Text="Play" 
+                Command="{Binding PlaySampleCommand}"
+                HorizontalOptions="Center"/>
+            <Button
+                Text="Text to speech" 
+                Command="{Binding TextToSpeechCommand}"
+                HorizontalOptions="Center"/>
+            <Button
+                Text="Share" 
+                Command="{Binding ShareCommand}"
+                HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

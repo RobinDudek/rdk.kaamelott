@@ -1,0 +1,12 @@
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\bin\Debug\netstandard2.0\rdk.kaamelott.deps.json
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\bin\Debug\netstandard2.0\rdk.kaamelott.dll
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\bin\Debug\netstandard2.0\rdk.kaamelott.pdb
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.csprojResolveAssemblyReference.cache
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.csproj.CoreCompileInputs.cache
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.App.xaml.g.cs
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.Views.DetailPage.xaml.g.cs
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.Views.MainPage.xaml.g.cs
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.AssemblyInfoInputs.cache
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.AssemblyInfo.cs
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.dll
+C:\Users\rarka\source\repos\rdk.kaamelott\rdk.kaamelott\rdk.kaamelott\obj\Debug\netstandard2.0\rdk.kaamelott.pdb

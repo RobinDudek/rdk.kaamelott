@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:rdk.kamelott"
+             xmlns:behavior="clr-namespace:rdk.kaamelott.Behaviors"
+             x:Class="rdk.kaamelott.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <SearchBar Text="{Binding SearchText}" />
+        <ListView x:Name="ListSample"
+                  ItemsSource="{Binding FilteredSamples}"
+                  HasUnevenRows="True"
+                  SelectedItem="{Binding SelectedSample, Mode=TwoWay}">
+            <ListView.Behaviors>
+                <behavior:ListViewSelectedItemBehavior 
+                    Command="{Binding GoToDetailCommand}"
+                    Converter="{StaticResource SelectedItemConverter}" />
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0"
+                                   Source="{Binding AvatarFileName}"
+                                   HeightRequest="60"
+                                   WidthRequest="60"
+                                   Margin="4"></Image>
+                            <StackLayout Grid.Column="1"
+                                         Padding="10">
+                                <Label Text="{Binding Title}"
+                                       LineBreakMode="WordWrap"
+                                       FontSize="14"></Label>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Character}"
+                                       LineBreakMode="NoWrap"
+                                       FontSize="12"></Label>
+                                    <Label Text="{Binding Episode}"
+                                       LineBreakMode="NoWrap"
+                                       FontSize="12"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
